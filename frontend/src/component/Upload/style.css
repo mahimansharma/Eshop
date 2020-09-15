@@ -1,0 +1,60 @@
+.upload{
+    background-color: white;
+
+}
+
+.delete{
+    background-color: rgb(248, 23, 23) !important;
+    float: right;
+    opacity: 70%;
+}
+.edit{
+    float: left;
+    opacity: 70%;
+}
+
+.delete:hover{
+        opacity: 100%;
+        transform: scale(1.2);
+        -webkit-transform: scale(1.2);
+        -moz-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        -o-transform: scale(1.2);
+}
+
+.edit:hover {
+    background-color: #2874f0;
+    opacity: 100%;
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+
+.img3 {
+    transition: transform .2s;
+    margin: 10px auto;
+
+}
+.img3:hover {
+    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
+}
+
+.name2{
+    text-align: center;
+}
+
+.card{
+    margin: 1.5rem 0 1rem 0;
+}
+
+.row{
+    margin-top: 2%;
+    padding-top: 1%;
+}
+

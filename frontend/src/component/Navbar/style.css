@@ -1,0 +1,114 @@
+/* Header CSS */
+
+.navbar01{
+    padding: .5% 15% .5% 15%;
+    background-color: #2874f0;
+    overflow: hidden;
+    position: sticky;
+    
+}
+.N01{
+    color:white;
+    font-size: large;
+    transition: transform .2s;
+}
+.N01:hover{
+    color: white;
+    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
+}
+.input-group{
+    padding: 0px 10% 0px 6%;
+    
+}
+
+.form-control22 {
+    width:90% !important;
+    margin-top: 11px !important;
+}
+#Logo{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.login-btn{
+    background: white;
+    color: #2874f0;
+    padding: 0% 2% 0% 2%;
+    margin-right: 10px;
+    border-radius: 5px !important;
+    -webkit-border-radius: 5px !important;
+    -moz-border-radius: 5px !important;
+    -ms-border-radius: 5px !important;
+    -o-border-radius: 5px !important;
+}
+
+
+
+/* sub-header CSS */
+.navbar02{
+    padding: .5% 15% .5% 15%;
+    background-color: white;
+}
+
+.dropdown{
+    margin-right:10%;
+}
+
+.sub-nav {
+    display: flex;
+    flex-direction: initial;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.dropdown-menu{
+    background: #4386f1;
+}
+.dropdown-item:hover{
+    background-color: rgba(3, 84, 122, 0.822);
+}
+.dropdown-item{
+        border-bottom: rgb(2, 42, 87);
+        border-bottom-style: solid;
+        border-bottom-width:2px ;
+}
+
+.text{
+    color: rgb(255, 255, 255) ;
+    font: large;
+    transition: all 0.1s ease-in-out 0.2s;
+    -webkit-transition: all 0.1s ease-in-out 0.2s;
+    -moz-transition: all 0.1s ease-in-out 0.2s;
+    -ms-transition: all 0.1s ease-in-out 0.2s;
+    -o-transition: all 0.1s ease-in-out 0.2s;
+}
+.text:hover{
+    color: rgb(0, 0, 0);
+    font: 500;
+    font-size: x-large;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out 0.1s;
+    -webkit-transition: all 0.3s ease-in-out 0.1s;
+    -moz-transition: all 0.3s ease-in-out 0.1s;
+    -ms-transition: all 0.3s ease-in-out 0.1s;
+    -o-transition: all 0.3s ease-in-out 0.1s;
+}
+.box_opt{
+    display: contents;
+}
+
+/* Footer */
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(5, 74, 202);
+    color: white;
+    text-align: center;
+    display:grid;
+}

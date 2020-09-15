@@ -1,0 +1,13 @@
+.login-box{
+    background: white;
+    width: 50% !important; 
+}
+
+.button-box{
+    display: flex;
+    padding: 2% 0;
+}
+
+.reg-box{
+    margin: 0 2%;
+}

@@ -1,0 +1,77 @@
+.slide{
+    padding-top: .5%;
+}
+.card{
+    padding-top: 2%;
+    margin: 5% 0 0 0%;
+    background-color: transparent;
+    
+}
+/* .img{
+    width:20px;
+} */
+.a1{
+        display: grid;
+       padding-left: 10% ;
+    }
+.img{
+    margin-left:35%;
+}    
+
+.brand{
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    padding-top: .5%;
+    color: darkgray;
+    letter-spacing: 1px;
+}
+.name{
+    font-size: larger;
+    font-weight: bold;
+
+}
+.quality{
+    padding-top: .5%;
+
+    color: darkgreen;
+}
+.price{
+    font-weight: lighter;
+}
+
+
+/* card2 */
+
+.img2 {
+    transition: transform .2s;
+        margin: 26px;
+        
+}
+.img2:hover {
+    transform: scale(1.5);
+}
+
+.two{
+    width: 68% !important;
+    background-color: transparent !important;
+}
+
+.collumns{
+    margin-bottom: 1%;
+}
+
+.bigrow{
+    background-color: rgb(255, 249, 247);
+    padding-top: 1%;
+}
+
+.name2{
+    font-size: 14px;
+    font-weight: bold;
+    margin: auto;
+}
+
+.img2:hover .name2{
+    visibility: hidden;
+}
