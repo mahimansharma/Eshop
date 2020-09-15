@@ -4,8 +4,8 @@
   "description": "Final eCommerce backend",
   "main": "index.js",
   "engine": {
-    "node":"12.6.0",
-    "npm":"6.9.0"
+    "node": "12.6.0",
+    "npm": "6.9.0"
   },
   "scripts": {
     "start": "node backend/index.js",
