@@ -1,0 +1,31 @@
+.App {
+  background-color: darkgray;
+}
+
+.container-fluid{
+  margin-bottom: 90px;
+}
+
+
+/* .spinner00 {
+  position: fixed;
+  top: 40%;
+  right: 44%;
+  width: 15%;
+  height: 20%;
+}
+
+.load {
+  position: fixed;
+  top: 48%;
+  right: 47%;
+  font-size: x-large;
+  font-weight: bolder;
+} */
+
+a:hover {
+  text-decoration: none !important;
+}
+.waves-effect{
+  z-index: 0 !important;
+}

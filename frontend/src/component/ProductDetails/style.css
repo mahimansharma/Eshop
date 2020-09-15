@@ -1,0 +1,119 @@
+.box1{
+    padding: 1% 0%;
+    background: white;
+    margin: .5% 5%;
+}
+.box2{
+    display: grid;
+}
+.product-name{
+        font-family: Arial,sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+}
+.price{
+    
+    font-weight: 600;
+    color: #000000;
+    font-size: 28px;
+    vertical-align: sub;
+}
+.description{
+    width: 90%;
+    text-align: justify;
+}
+.des1{
+    color: gray;
+    padding-top: 1%;
+
+}
+.high1{
+    color: gray;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.high2{
+    line-height: 2;
+}
+
+li::before {
+    content: "•";
+    padding-right: 8px;
+    color: gray;
+    font-size: larger;
+}
+ul {
+    list-style: none;
+    
+}
+.cart{
+    margin: 10px 41px;
+    background-color: #fc9015;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding: 1% 7%;
+}
+.img{
+    margin: auto;
+}
+
+
+
+
+
+
+
+.filterbox1{
+    background: white;
+    max-width: 90%;
+    width:100%;
+}
+.header{
+    font-size: 40px;
+    font-weight: bold;
+}
+.card{
+    margin-top: 2%;
+}
+
+.card-title{
+    font-weight: 550;
+    font-size: 25px;
+    padding-left: 2%;
+}
+
+.btn1{
+    display: inline;
+    margin-left: 75%;
+}
+
+.card-text{
+    text-align: center;
+}
+
+.btn-warning{
+    margin-left: 15%;
+}
+
+.text-danger{
+    margin-left: 26%;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.qty{
+    display: block !important;
+    width: 12%;
+    height: auto;
+    margin-left: 3%;
+}
+
+.qty-box{
+    display: flex;
+}
