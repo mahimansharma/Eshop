@@ -38,12 +38,12 @@ import { withRouter } from "react-router";
         console.log('navbar',this);
         return (
             <Navbar expand="lg" className="navbar01 " fixed="top">
-                <Link to="/home" className="N01" id="Logo" > Eshop </Link>
+                <Link to="/home" className="N01" id="Logo" ><img src="logo.png"  /></Link>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" className="navbar-toggler01"/>
                 <Navbar.Collapse id="responsive-navbar-nav">
                     
                         <div className="input-group">
-                            <input className="form-control22" type="text" placeholder="Search" aria-label="Search"></input>
+                            <input className="form-control22" type="text" placeholder="Search for products,brands and more" aria-label="Search"></input>
                             <div className="input-group-prepend">
                                 <span><i className="fa fa-search" aria-hidden="true"></i></span>
                             </div>  
