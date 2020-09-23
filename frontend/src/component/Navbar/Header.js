@@ -9,6 +9,7 @@ import * as Icon from 'react-bootstrap-icons';
 import Axios from 'axios';
 import { logout } from '../../store/actions/userActions';
 import { withRouter } from "react-router";
+import logo from './logo.jpg' ;
 
  class Header extends Component {
      constructor(props) {
@@ -38,7 +39,7 @@ import { withRouter } from "react-router";
         console.log('navbar',this);
         return (
             <Navbar expand="lg" className="navbar01 " fixed="top">
-                <Link to="/home" className="N01" id="Logo" ><img src="logo.png"  /></Link>
+                <Link to="/home" className="N01" id="Logo" ><img id='Logo-pic' src={logo} alt='Eshop' width='100%' /></Link>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" className="navbar-toggler01"/>
                 <Navbar.Collapse id="responsive-navbar-nav">
                     

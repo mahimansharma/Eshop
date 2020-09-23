@@ -47,7 +47,7 @@ class ItemBox extends Component {
                     {this.state.products.map(product => {
                         return (
                             <Col xl={3} key={product.id}>
-                                <Cards className='product-card'
+                                <Cards id='product-card'
                                     product={product} />
                             </Col>
                         )

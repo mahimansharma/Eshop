@@ -15,7 +15,6 @@ class ProductDetails extends Component {
          }
     }
    
-    
    
     renderSpinner() {
         return (
@@ -73,6 +72,7 @@ class ProductDetails extends Component {
                                 style={{ width: "60px", marginLeft: "20px", borderRadius: "3px" }} 
                                 
                                 /> */}
+                                
                             <div>Qty:</div>  
                             <select
                                 name='qty'

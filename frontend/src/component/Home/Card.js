@@ -12,7 +12,7 @@ class Cards extends Component {
         const { product } = this.props;
         return (
                     <div className="card">
-                <Link to={'/mobile/' +  product._id}> <img className="img" alt="product pic not availalble" 
+                <Link to={'/mobile/' +  product._id}> <img className="img" id='pic64' alt="product pic not availalble" 
                 src={product.pic}
                     width="90px" ></img> </Link>
                         <div className="a1">

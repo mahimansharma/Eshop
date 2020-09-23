@@ -3,6 +3,30 @@ const {User}  = require("../models/userModel");
 const { getToken, isAuth } = require( '../util');
 const router = express.Router();
 
+router.get('/allUsers', (req, res) => {
+    User.find()
+        .then(data => {
+            console.log("got users")
+            res.status(200).json(data)
+        })
+        .catch(err => {
+            res.status(500).json({ error: err })
+        })
+});
+
+router.delete('/delete/:id', (req, res) => {
+    User.findByIdAndRemove(req.params.id)
+        .exec()
+        .then(data => {
+            if (!data) {
+                return res.status(404).end();
+            }
+            return res.status(204).end();
+        })
+        .catch(err => next(err));
+})
+
+
 router.put('/:id', isAuth, async (req, res) => {
     const userId = req.params.id;
     const user = await User.findById(userId);

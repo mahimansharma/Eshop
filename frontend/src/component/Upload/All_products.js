@@ -28,6 +28,17 @@ class All_products extends Component {
             })
     }
     
+    handleClick = productId => {
+        const requestOptions = {
+            method: 'DELETE'
+        };
+        fetch("http://localhost:8000/mobiles/delete" + productId, requestOptions).then((response) => {
+            return response.json();
+        }).then((result) => {
+            console.log(result)
+        });
+    }
+
     
     
     render() {
@@ -43,8 +54,8 @@ class All_products extends Component {
                                         width="90px" ></img>
                                     <span className="name2">{product.name}</span>
                                     <div>
-                                        <button className='btn-small waves-effect lighten-2 delete'><DeleteOutlined /></button>
-                                        <button className='btn-small waves-effect lighten-2 edit'><EditOutlined /></button>
+                                        <button className='btn-small waves-effect lighten-2 delete' onClick={() => { this.handleClick(product._id) }}><DeleteOutlined /></button>
+                                        <button className='btn-small waves-effect lighten-2 edit'  ><EditOutlined /></button>
                                     </div>
                                 </div>
                             </Col>

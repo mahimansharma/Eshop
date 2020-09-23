@@ -4,7 +4,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Switch, Route } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import store from '../store/store';
-import Auth from "../component/Auth/auth";
 
 
 import Header from './Navbar/Header';
@@ -61,9 +60,9 @@ class App extends React.Component {
                 <Route exact path="/user/cart" component={Cart2} />
                 <Route exact path="/login" component={LoginPage} />
                 <Route exact path="/login2" component={Login2} />
-                <Route exact path="/register2" component={Register} />
+                {/* <Route exact path="/register2" component={Register} /> */}
                 <Route exact path="/upload" component={Upload} />
-                <Route exact path="/admin_products" component={Auth(All_products, null)} />
+                <Route exact path="/admin_products" component={All_products} />
                 <Route path="/signin" component={SigninScreen} />
                 <Route path="/register" component={RegisterScreen} />
                 <Route path="/profile" component={ProfileScreen} />

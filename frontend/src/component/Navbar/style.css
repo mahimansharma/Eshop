@@ -7,10 +7,11 @@
     position: sticky;
     
 }
-/* .N01{
+.N01{
     color:white;
     font-size: large;
     transition: transform .2s;
+    width: 13%;
 }
 .N01:hover{
     color: white;
@@ -19,7 +20,7 @@
     -moz-transform: scale(1.5);
     -ms-transform: scale(1.5);
     -o-transform: scale(1.5);
-} */
+}
 .input-group{
     padding: 0px 10% 0px 6%;
     
@@ -29,10 +30,10 @@
     width:90% !important;
     margin-top: 11px !important;
 }
-/* #Logo{
+#Logo{
     font-size: 20px;
     font-weight: bolder;
-} */
+}
 .login-btn{
     background: white;
     color: #2874f0;
@@ -44,6 +45,7 @@
     -ms-border-radius: 5px !important;
     -o-border-radius: 5px !important;
 }
+
 
 
 

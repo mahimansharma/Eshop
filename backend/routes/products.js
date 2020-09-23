@@ -52,6 +52,19 @@ router.delete('/mobiles/:name', (req, res) =>
         }
     }));
 
+router.delete('/mobile/delete/:id', (req, res) => {
+    Products.findByIdAndRemove(req.params.id)
+        .exec()
+        .then(data => {
+            if (!data) {
+                return res.status(404).end();
+            }
+            return res.status(204).end();
+        })
+        .catch(err => next(err));
+})
+
+
 router.get("/products_by_id", (req, res) => {
     let type = req.query.type
     let productIds = req.query.id
