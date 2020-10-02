@@ -8,8 +8,12 @@
     "npm": "6.9.0"
   },
   "scripts": {
-    "start": "node backend/index.js",
-    "backend": "nodemon backend/index.js"
+   "test": "echo \"Error: no test specified\" && exit 1",
+   "start": "node index.js",
+   "heroku-postbuild": "cd frontend && npm install && npm run build",
+    "backend": "nodemon backend/index.js",
+    "frontend": "npm run start --prefix frontend",
+    "dev": "concurrently \"npm run backend\" \"npm run start --prefix frontend\""
   },
   "keywords": [
     "node",

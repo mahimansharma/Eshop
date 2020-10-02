@@ -33,6 +33,6 @@ const composeEnhancer = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 const store = createStore(
     reducer,
     initialState, 
-    applyMiddleware(promiseMiddleware, ReduxThunk),
+    composeEnhancer(applyMiddleware(promiseMiddleware, ReduxThunk)),
     );
 export default store;

@@ -57,7 +57,7 @@ class Order extends React.Component {
             )
 
         return (
-            <Row>
+            <Row className='onee'>
                 <Col xl={6}>
                     <h1>Shipping Details</h1>
                     <Form>

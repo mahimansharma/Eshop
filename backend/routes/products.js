@@ -52,7 +52,7 @@ router.delete('/mobiles/:name', (req, res) =>
         }
     }));
 
-router.delete('/mobile/delete/:id', (req, res) => {
+router.delete('/mobiles/delete/:id', (req, res) => {
     Products.findByIdAndRemove(req.params.id)
         .exec()
         .then(data => {

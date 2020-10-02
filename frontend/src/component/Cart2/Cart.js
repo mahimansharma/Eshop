@@ -53,7 +53,7 @@ class Cart extends Component {
             )
 
         return (
-            <div className="container-fluid">
+            <div className="container-fluid onee">
                 <div >
                     <h5><strong> My Shopping Cart</strong> </h5>
                 </div>

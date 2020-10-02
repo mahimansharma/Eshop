@@ -47,7 +47,7 @@ class Upload extends React.Component {
             price: this.state.price,
             quality: this.state.quality ,
             des: this.state.des,
-            inSrock: this.state.inStock
+            inStock: this.state.inStock
 
         }
 
